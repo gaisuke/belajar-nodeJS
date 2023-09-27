@@ -1,0 +1,3 @@
+Nama = Akhmad Dani Munif
+Kelas = 2B
+Batch = 5
