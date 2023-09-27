@@ -1,7 +1,4 @@
-var read = require('./helper/read');
-var write = require('./helper/write');
 
-var data = `
 01 
 03/22 08:51:01 INFO   :.main: *************** RSVP Agent started ***************
  02 
@@ -63,8 +60,3 @@ initialized
 03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
 03/22 08:51:06 TRACE  :..entity_initialize: interface 9.67.117.98, entity for rsvp allocated and 
 initialized
-`
-
-write.writeModule('./file/loggingxy82738273.txt', data);
-
-read.readModule('./file/logging.txt');
